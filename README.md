@@ -4,7 +4,7 @@ vnsmtpd
 Very nice smtp server.
 
 Key features:
-* is small and written in C;
+* is small, multithreaded and written in C;
 * is a mail receiving MTA server;
 * adheres to the RFC standards;
 * all currently used SMTP verbs are implemented;
