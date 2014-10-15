@@ -11,16 +11,16 @@ Key features:
 * dead verbs are left out;
 * is delivering messages in Maildir format;
 * the configuration is simple and understandable;
-* uses domains, users and aliases derived from Postfix;
-* has seemless integration with Courier-IMAP configuration;
+* it uses domains, users and aliases derived from Postfix;
+* it has seemless integration with Courier-IMAP configuration;
 * all configuration details reside in MySQL database;
-* has logging to database;
-* has builtin spam heuristics;
-* optional will use external spam databases.
+* it has logging to database;
+* it has builtin spam heuristics;
+* optional it will use external spam databases.
 
 Current status:
 * is now in alpha test replacing my own Postfix server;
-* on proven quality and reliability it will be published in beta.
+* when proven quality and reliability are reached, it will be published in beta.
 
 
 
