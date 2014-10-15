@@ -5,20 +5,23 @@ Very nice smtp server.
 
 Key features:
 * written in C;
-* mail receiving MTA server;
-* only relevant SMTP verbs are implemented;
+* is a mail receiving MTA server;
 * adheres to the RFC standards;
-* delivering messages in Maildir format;
-* configuration is simple and understandable;
+* all currently used SMTP verbs are implemented;
+* dead verbs are left out;
+* is delivering messages in Maildir format;
+* the configuration is simple and understandable;
 * uses domains, users and aliases derived from Postfix;
-* seemless integration with Courier-IMAP configuration;
-* all configuration details in MySQL database;
-* logging to database;
-* builtin spam heuristics;
-* optional using external spam databases.
+* has seemless integration with Courier-IMAP configuration;
+* all configuration details reside in MySQL database;
+* has logging to database;
+* has builtin spam heuristics;
+* optional will use external spam databases.
 
 Current status:
-* in alpha test replacing my own Postfix server
+* is now in alpha test replacing my own Postfix server;
+* on proven quality and reliability it will be published in beta.
+* 
 
 
 
