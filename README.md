@@ -13,7 +13,7 @@ Key features:
 * it uses domains, users and aliases derived from Postfix;
 * it has seemless integration with Courier-IMAP configuration;
 * all configuration details reside in MySQL database;
-* it has logging to database;
+* it has logging written to a database;
 * it has builtin spam heuristics;
 * optional it will use external spam databases.
 
